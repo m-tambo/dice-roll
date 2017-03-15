@@ -1,0 +1,26 @@
+{
+  "name": "diceroll",
+  "version": "1.0.0",
+  "description": "an exercise in node.js modularity",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-tambo/diceroll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-tambo/diceroll/issues"
+  },
+  "homepage": "https://github.com/m-tambo/diceroll#readme",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
